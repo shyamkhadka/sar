@@ -1,0 +1,90 @@
+/* .hero_title{
+  font-size: 8rem;
+  color: #fff;
+  position: relative;
+} */
+body,html{
+  width: 100%;
+}
+.hero_title::after{
+  content: " ";
+  width: 7rem;
+  height: .1rem;
+  background-color: rgb(245, 237, 225);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+
+}
+.hero_industry p,.hero_service p{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+ 
+}
+.hero_industry,.hero_service{
+  width: 100%;
+  color: #fff;
+  padding-bottom: 5rem ;
+  margin-top: 5rem;
+}
+ .content{
+  width: 60%;
+  margin: 0 auto;
+  margin-left: 15%;
+}
+.mt{
+  margin-top: 4rem;
+}
+.text-center{
+  text-align: center;
+}
+.industry_info-card h3{
+  margin: 1rem;
+  font-weight: normal;
+}
+.industry_info-card p{
+  font-size: .8rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.service_card{
+  display: flex;
+  gap: 5rem;
+
+  align-items: center;
+ 
+}
+.service_content{
+  width: 50%;
+}
+
+.service{
+  width:70%;
+  margin: 3rem auto ;
+
+}
+.bar{
+  font-size: 3rem;
+  margin: 2rem auto;
+  position: relative;
+  margin-left: 2rem;
+}
+.bar::before{
+  content: " ";
+  height: 100%;
+  width: 1.9px;
+  background-color:#BDB5F8 ;
+  position: absolute;
+  left: -2rem;
+  top: 0;
+}
+.service_content p{
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+}
+.contanier{
+  width: 60%;
+  margin: 0 auto;
+}
